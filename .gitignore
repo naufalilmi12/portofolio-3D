@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+build/
+coverage/
+
+# Environment variables
+.env*
+!.env.example
+
+# OS and Editor files
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.idea/
+
+# Large chat media attachment
+public/assets/aistudio/*.mp4
